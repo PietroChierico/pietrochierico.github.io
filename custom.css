@@ -44,3 +44,29 @@
 .items-center {
   align-items: center;
 }
+
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 1.2rem;
+  width: 75%;
+}
+
+.profile-links a {
+  display: block;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d9dee7;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: inherit;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.profile-links a:hover {
+  border-color: #7a8ca5;
+  transform: translateY(-1px);
+}

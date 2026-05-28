@@ -4,45 +4,120 @@ title-block-banner: false
 toc: true
 ---
 
-## Research overview
+<style>
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
 
-My research focuses on wearable biomedical sensing, digital health, and biomedical signal processing.
+.research-card {
+  border: 1px solid #d9dee7;
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+  background-color: #ffffff;
+}
 
-I work mainly with photoplethysmography signals, cardiovascular monitoring, signal quality assessment, and AI-based methods for biomedical data analysis.
+.research-card h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
 
-## Current research directions
+.research-card p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
 
-### PPG signal quality assessment
+.publication {
+  border-left: 3px solid #d9dee7;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
 
-I work on methods to detect and classify low-quality PPG segments in wearable monitoring. This is important because noisy signals can reduce the reliability of heart rate, pulse rate variability, blood pressure, and other physiological estimates.
+.publication-title {
+  font-weight: 700;
+}
 
-### Robust peak detection in PPG
+.award-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background-color: #f3f6fa;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
 
-I am interested in noise-resilient peak detection methods for PPG signals, especially in wearable and real-world monitoring conditions.
+@media (max-width: 768px) {
+  .research-cards {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
-### Reproducible biomedical AI
+I develop signal-processing and machine-learning methods for **wearable cardiovascular monitoring**, with a particular focus on **photoplethysmography (PPG)**.
 
-I am interested in biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering.
+My work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications.
 
-## Publications
+## Main research lines
+
+<div class="research-cards">
+
+<div class="research-card">
+<h3>PPG signal quality assessment</h3>
+<p>
+I work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.
+</p>
+</div>
+
+<div class="research-card">
+<h3>Noise-resilient beat detection</h3>
+<p>
+I develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.
+</p>
+</div>
+
+<div class="research-card">
+<h3>Wearable cardiovascular monitoring</h3>
+<p>
+I am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.
+</p>
+</div>
+
+<div class="research-card">
+<h3>Evaluation of biomedical signal pipelines</h3>
+<p>
+I study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems.
+</p>
+</div>
+
+</div>
+
+## Selected publications
 
 ### Conference papers
 
-Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
-**Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.**  
-*13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania.*  
-**Award:** First Prize.
-
----
+<div class="publication">
 
 Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).  
-**Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.**  
+
+<span class="publication-title">Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.</span>  
+
 *Computing in Cardiology 2025.*  
+
 DOI: [10.22489/CinC.2025.350](https://doi.org/10.22489/CinC.2025.350)
 
----
+</div>
+
+<div class="publication">
 
 Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
-**Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.**  
+
+<span class="publication-title">Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.</span>  
+
 *Computing in Cardiology 2025.*  
+
 DOI: [10.22489/CinC.2025.344](https://doi.org/10.22489/CinC.2025.344)
+
+</div>

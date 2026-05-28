@@ -144,14 +144,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-overview" id="toc-research-overview" class="nav-link active" data-scroll-target="#research-overview">Research overview</a></li>
-  <li><a href="#current-research-directions" id="toc-current-research-directions" class="nav-link" data-scroll-target="#current-research-directions">Current research directions</a>
-  <ul class="collapse">
-  <li><a href="#ppg-signal-quality-assessment" id="toc-ppg-signal-quality-assessment" class="nav-link" data-scroll-target="#ppg-signal-quality-assessment">PPG signal quality assessment</a></li>
-  <li><a href="#robust-peak-detection-in-ppg" id="toc-robust-peak-detection-in-ppg" class="nav-link" data-scroll-target="#robust-peak-detection-in-ppg">Robust peak detection in PPG</a></li>
-  <li><a href="#reproducible-biomedical-ai" id="toc-reproducible-biomedical-ai" class="nav-link" data-scroll-target="#reproducible-biomedical-ai">Reproducible biomedical AI</a></li>
-  </ul></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <li><a href="#main-research-lines" id="toc-main-research-lines" class="nav-link active" data-scroll-target="#main-research-lines">Main research lines</a></li>
+  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link" data-scroll-target="#selected-publications">Selected publications</a>
   <ul class="collapse">
   <li><a href="#conference-papers" id="toc-conference-papers" class="nav-link" data-scroll-target="#conference-papers">Conference papers</a></li>
   </ul></li>
@@ -180,44 +174,112 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="research-overview" class="level2">
-<h2 class="anchored" data-anchor-id="research-overview">Research overview</h2>
-<p>My research focuses on wearable biomedical sensing, digital health, and biomedical signal processing.</p>
-<p>I work mainly with photoplethysmography signals, cardiovascular monitoring, signal quality assessment, and AI-based methods for biomedical data analysis.</p>
+<style>
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.research-card {
+  border: 1px solid #d9dee7;
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+  background-color: #ffffff;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.research-card p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.publication {
+  border-left: 3px solid #d9dee7;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.publication-title {
+  font-weight: 700;
+}
+
+.award-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background-color: #f3f6fa;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .research-cards {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<p>I develop signal-processing and machine-learning methods for <strong>wearable cardiovascular monitoring</strong>, with a particular focus on <strong>photoplethysmography (PPG)</strong>.</p>
+<p>My work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications.</p>
+<section id="main-research-lines" class="level2">
+<h2 class="anchored" data-anchor-id="main-research-lines">Main research lines</h2>
+<div class="research-cards">
+<div class="research-card">
+<h3 class="anchored">
+PPG signal quality assessment
+</h3>
+<p>
+I work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.
+</p>
+</div>
+<div class="research-card">
+<h3 class="anchored">
+Noise-resilient beat detection
+</h3>
+<p>
+I develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.
+</p>
+</div>
+<div class="research-card">
+<h3 class="anchored">
+Wearable cardiovascular monitoring
+</h3>
+<p>
+I am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.
+</p>
+</div>
+<div class="research-card">
+<h3 class="anchored">
+Evaluation of biomedical signal pipelines
+</h3>
+<p>
+I study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems.
+</p>
+</div>
+</div>
 </section>
-<section id="current-research-directions" class="level2">
-<h2 class="anchored" data-anchor-id="current-research-directions">Current research directions</h2>
-<section id="ppg-signal-quality-assessment" class="level3">
-<h3 class="anchored" data-anchor-id="ppg-signal-quality-assessment">PPG signal quality assessment</h3>
-<p>I work on methods to detect and classify low-quality PPG segments in wearable monitoring. This is important because noisy signals can reduce the reliability of heart rate, pulse rate variability, blood pressure, and other physiological estimates.</p>
-</section>
-<section id="robust-peak-detection-in-ppg" class="level3">
-<h3 class="anchored" data-anchor-id="robust-peak-detection-in-ppg">Robust peak detection in PPG</h3>
-<p>I am interested in noise-resilient peak detection methods for PPG signals, especially in wearable and real-world monitoring conditions.</p>
-</section>
-<section id="reproducible-biomedical-ai" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-biomedical-ai">Reproducible biomedical AI</h3>
-<p>I am interested in biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering.</p>
-</section>
-</section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
 <section id="conference-papers" class="level3">
 <h3 class="anchored" data-anchor-id="conference-papers">Conference papers</h3>
-<p>Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2025).<br>
-<strong>Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.</strong><br>
-<em>13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania.</em><br>
-<strong>Award:</strong> First Prize.</p>
-<hr>
-<p>Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., &amp; Rieta, J. J. (2025).<br>
-<strong>Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.</strong><br>
-<em>Computing in Cardiology 2025.</em><br>
-DOI: <a href="https://doi.org/10.22489/CinC.2025.350">10.22489/CinC.2025.350</a></p>
-<hr>
-<p>Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2025).<br>
-<strong>Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.</strong><br>
-<em>Computing in Cardiology 2025.</em><br>
-DOI: <a href="https://doi.org/10.22489/CinC.2025.344">10.22489/CinC.2025.344</a></p>
+<div class="publication">
+<p>Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., &amp; Rieta, J. J. (2025).</p>
+<p><span class="publication-title">Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.</span></p>
+<p><em>Computing in Cardiology 2025.</em></p>
+<p>DOI: <a href="https://doi.org/10.22489/CinC.2025.350">10.22489/CinC.2025.350</a></p>
+</div>
+<div class="publication">
+<p>Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2025).</p>
+<p><span class="publication-title">Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.</span></p>
+<p><em>Computing in Cardiology 2025.</em></p>
+<p>DOI: <a href="https://doi.org/10.22489/CinC.2025.344">10.22489/CinC.2025.344</a></p>
+</div>
 
 
 </section>

@@ -1,42 +1,39 @@
-::: {.columns .items-center}
+::: {.columns .items-start}
 
-::: {.column width="30%"}
+::: {.column width="32%"}
 
-![](files/profile.jpg){width=60% .rounded-circle}
+<br><br>
+
+![](files/profile.jpg){width=70% .rounded-circle}
+
+<br>
+
+::: {.profile-links}
+[Email](mailto:pietrochr@gmail.com)
+[ORCID](https://orcid.org/0009-0006-9076-8532)
+[ResearchGate](https://www.researchgate.net/profile/Pietro-Chierico-3)
+[LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
+[GitHub](https://github.com/PietroChierico)
+:::
 
 :::
 
-::: {.column width="70%"}
+::: {.column width="68%"}
 
-## About me
+## Pietro Chierico
 
-I am a PhD student in Biomedical Engineering at Universitat Politècnica de València, affiliated with BioMIT.org, and a visiting researcher at Khalifa University.
+**PhD Student in Biomedical Engineering**
 
-My research focuses on digital health, physiological signal processing, wearable sensing, photoplethysmography, cardiovascular monitoring, and AI-driven biomedical technologies.
+I work at the intersection of **digital health, physiological signal processing, wearable sensing, and biomedical AI**, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.
 
-I am interested in developing reliable and reproducible methods for biomedical signal analysis, with applications in wearable and translational healthcare engineering.
+My research focuses especially on **photoplethysmography (PPG)**, signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.
 
-### Research interests
-
-- Digital health
-- Physiological signal processing
-- Wearable sensing
-- Photoplethysmography
-- Cardiovascular monitoring
-- Biomedical AI
-- Reproducible research
-
-### Links
-
-- [ResearchGate](https://www.researchgate.net/profile/Pietro-Chierico-3)
-- [ORCID](https://orcid.org/0009-0006-9076-8532)
-- [LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
-- [GitHub](https://github.com/PietroChierico)
+Previously, I gained international research and engineering experience at the **University of Illinois Chicago**, **Politecnico di Milano**, **NECSTLab**, and **STMicroelectronics**, working across biomedical engineering, embedded technologies, and applied physiological sensing.
 
 :::
 
 :::
----
+
 
 ## Awards
 
