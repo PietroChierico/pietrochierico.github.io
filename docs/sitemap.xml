@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pietrochierico.github.io/teaching.html</loc>
-    <lastmod>2026-05-28T09:22:25.838Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/pub-listing.html</loc>
-    <lastmod>2026-05-28T08:50:53.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/posts.html</loc>
-    <lastmod>2026-05-28T08:50:53.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/posts/news-title/index.html</loc>
-    <lastmod>2026-05-28T08:50:53.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/people.html</loc>
-    <lastmod>2026-05-28T08:50:53.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/cv.html</loc>
-    <lastmod>2026-05-28T09:22:57.265Z</lastmod>
-  </url>
-  <url>
     <loc>https://pietrochierico.github.io/contact.html</loc>
-    <lastmod>2026-05-28T09:23:15.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/index.html</loc>
-    <lastmod>2026-05-28T09:25:05.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/posts/event-title/index.html</loc>
-    <lastmod>2026-05-28T08:50:53.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pietrochierico.github.io/posts/paper-title/index.html</loc>
-    <lastmod>2026-05-28T08:50:53.759Z</lastmod>
+    <lastmod>2026-05-28T11:02:23.481Z</lastmod>
   </url>
   <url>
     <loc>https://pietrochierico.github.io/projects.html</loc>
-    <lastmod>2026-05-28T09:41:57.668Z</lastmod>
+    <lastmod>2026-05-28T11:02:23.460Z</lastmod>
   </url>
   <url>
-    <loc>https://pietrochierico.github.io/publications.html</loc>
-    <lastmod>2026-05-28T09:22:11.705Z</lastmod>
+    <loc>https://pietrochierico.github.io/index.html</loc>
+    <lastmod>2026-05-28T11:21:50.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pietrochierico.github.io/cv.html</loc>
+    <lastmod>2026-05-28T11:02:23.471Z</lastmod>
   </url>
 </urlset>

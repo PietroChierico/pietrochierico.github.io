@@ -1,18 +1,22 @@
----
-title: "Pietro Chierico"
-subtitle: "PhD Student | Biomedical Engineering | Digital Health"
-page-layout: full
-toc: false
-title-block-banner: false
----
+::: {.columns .items-center}
 
-I am a biomedical engineer and PhD student working on digital health, physiological signal processing, wearable sensing, and AI-driven biomedical technologies.
+::: {.column width="30%"}
 
-My research focuses on photoplethysmography (PPG), cardiovascular monitoring, signal quality assessment, and reproducible biomedical AI.
+![](files/profile.jpg){width=60% .rounded-circle}
 
-I am affiliated with BioMIT.org at Universitat Politècnica de València and collaborate with Khalifa University on biomedical engineering and digital health research initiatives.
+:::
 
-## Research interests
+::: {.column width="70%"}
+
+## About me
+
+I am a PhD student in Biomedical Engineering at Universitat Politècnica de València, affiliated with BioMIT.org, and a visiting researcher at Khalifa University.
+
+My research focuses on digital health, physiological signal processing, wearable sensing, photoplethysmography, cardiovascular monitoring, and AI-driven biomedical technologies.
+
+I am interested in developing reliable and reproducible methods for biomedical signal analysis, with applications in wearable and translational healthcare engineering.
+
+### Research interests
 
 - Digital health
 - Physiological signal processing
@@ -22,9 +26,26 @@ I am affiliated with BioMIT.org at Universitat Politècnica de València and col
 - Biomedical AI
 - Reproducible research
 
-## Links
+### Links
 
-- [GitHub](https://github.com/PietroChierico)
-- [LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
 - [ResearchGate](https://www.researchgate.net/profile/Pietro-Chierico-3)
 - [ORCID](https://orcid.org/0009-0006-9076-8532)
+- [LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
+- [GitHub](https://github.com/PietroChierico)
+
+:::
+
+:::
+---
+
+## Awards
+
+### First Prize — EHB 2025 International Conference
+
+**13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania**
+
+Awarded for the paper:
+
+*Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.*
+
+![](files/ehb-2025-first-prize.jpg){width=70%}

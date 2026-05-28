@@ -1,12 +1,14 @@
-﻿---
+---
 title: "Research"
 title-block-banner: false
 toc: true
 ---
 
-## Overview
+## Research overview
 
-My research focuses on wearable biomedical sensing and digital health, with particular interest in photoplethysmography, cardiovascular monitoring, and AI-based biomedical signal analysis.
+My research focuses on wearable biomedical sensing, digital health, and biomedical signal processing.
+
+I work mainly with photoplethysmography signals, cardiovascular monitoring, signal quality assessment, and AI-based methods for biomedical data analysis.
 
 ## Current research directions
 
@@ -16,8 +18,31 @@ I work on methods to detect and classify low-quality PPG segments in wearable mo
 
 ### Robust peak detection in PPG
 
-I am interested in noise-resilient peak detection methods for PPG signals, especially for wearable and real-world monitoring conditions.
+I am interested in noise-resilient peak detection methods for PPG signals, especially in wearable and real-world monitoring conditions.
 
 ### Reproducible biomedical AI
 
-I am also interested in building biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering.
+I am interested in biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering.
+
+## Publications
+
+### Conference papers
+
+Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
+**Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.**  
+*13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania.*  
+**Award:** First Prize.
+
+---
+
+Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).  
+**Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.**  
+*Computing in Cardiology 2025.*  
+DOI: [10.22489/CinC.2025.350](https://doi.org/10.22489/CinC.2025.350)
+
+---
+
+Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
+**Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.**  
+*Computing in Cardiology 2025.*  
+DOI: [10.22489/CinC.2025.344](https://doi.org/10.22489/CinC.2025.344)

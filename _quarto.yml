@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - projects.qmd
+    - cv.qmd
+    - contact.qmd
 
 website:
   title: "Pietro Chierico"
@@ -14,10 +19,6 @@ website:
         href: index.qmd
       - text: Research
         href: projects.qmd
-      - text: Publications
-        href: publications.qmd
-      - text: Teaching
-        href: teaching.qmd
       - text: CV
         href: cv.qmd
       - text: Contact
@@ -39,10 +40,7 @@ website:
 
   page-footer:
     left: "Pietro Chierico ©"
-    right:
-      - icon: github
-        href: https://github.com/PietroChierico
-        target: _blank
+    right: "For inquiries: pietrochr@gmail.com"
 
   search: true
 
@@ -52,4 +50,3 @@ format:
     css: custom.css
     toc: true
     link-external-newwindow: true
-    email-obfuscation: javascript

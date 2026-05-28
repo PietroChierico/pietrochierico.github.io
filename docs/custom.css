@@ -1,5 +1,46 @@
-/*Inline block for altmetric badges, will keep the badges in the same line*/
-span.__dimensions_badge_embed__, div.altmetric-embed {
-  display: inline-flex;
-  vertical-align: middle;
+.home-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home-text {
+  flex: 1 1 420px;
+  font-size: 1.05rem;
+}
+
+.home-photo-box {
+  flex: 0 0 auto;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.award-img {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+
+.rounded-circle img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.items-center {
+  align-items: center;
 }
