@@ -1,13 +1,23 @@
+---
+title: "Research"
+title-block-banner: false
+toc: true
+---
 
-    - path: https://www.nsf.gov/ 
-      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
-      title: "Exploring "
-      author: Academic Website
-      subtitle: "Funder"
-      description: "The goal of this project is to investigate ."
-      started: "2024"
-      ended: "2025"
-      funding: "$0"
-#      date: "2022-10-26"
-#      categories: [] 
+## Overview
 
+My research focuses on wearable biomedical sensing and digital health, with particular interest in photoplethysmography, cardiovascular monitoring, and AI-based biomedical signal analysis.
+
+## Current research directions
+
+## PPG signal quality assessment
+
+I work on methods to detect and classify low-quality PPG segments in wearable monitoring. This is important because noisy signals can reduce the reliability of heart rate, pulse rate variability, blood pressure, and other physiological estimates.
+
+## Robust peak detection in PPG
+
+I am interested in noise-resilient peak detection methods for PPG signals, especially for wearable and real-world monitoring conditions.
+
+## Reproducible biomedical AI
+
+I am also interested in building biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering.

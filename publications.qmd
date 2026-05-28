@@ -1,34 +1,19 @@
 ---
 title: "Publications"
-description-meta: "Information, pdfs, and social metrics of papers"
-#page-layout: full
-#back-to-top-navigation: true
 title-block-banner: false
-css: custom.css
+toc: true
 ---
 
+## Conference papers
 
-<!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).  
+**Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.**  
+*Computing in Cardiology 2025.*  
+DOI: [10.22489/CinC.2025.350](https://doi.org/10.22489/CinC.2025.350)
 
-Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%) 
+---
 
-Total citations as of January 2025:
-
-- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
-- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
-
-## Selected Work
-
-Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
-
-
-<center><hr style="width:50%"></center>
-
-Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-
-
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}
+Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
+**Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.**  
+*Computing in Cardiology 2025.*  
+DOI: [10.22489/CinC.2025.344](https://doi.org/10.22489/CinC.2025.344)

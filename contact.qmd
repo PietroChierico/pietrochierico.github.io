@@ -1,24 +1,18 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
 title-block-banner: false
+toc: false
 ---
 
-<center>
+## Contact
 
-**Quarto Academic**
+For academic or research-related inquiries, please contact me by email.
 
-School
+Email: `your.email@university.edu`
 
-College
+## Profiles
 
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
-
-
-</center>
+- [GitHub](https://github.com/PietroChierico)
+- [LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
+- [ResearchGate](https://www.researchgate.net/profile/Pietro-Chierico-3)
+- [ORCID](https://orcid.org/0009-0006-9076-8532)

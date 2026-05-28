@@ -1,96 +1,30 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
-page-navigation: false
-toc: false
-#sidebar: false
+title: "Pietro Chierico"
+subtitle: "PhD Student | Biomedical Engineering | Digital Health"
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 70%
-  links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+toc: false
+title-block-banner: false
 ---
 
-:::{#hero-heading}
+I am a biomedical engineer and PhD student working on digital health, physiological signal processing, wearable sensing, and AI-driven biomedical technologies.
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+My research focuses on photoplethysmography (PPG), cardiovascular monitoring, signal quality assessment, and reproducible biomedical AI.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I am affiliated with BioMIT.org at Universitat Politècnica de València and collaborate with Khalifa University on biomedical engineering and digital health research initiatives.
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
+## Research interests
 
-Check [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+- Digital health
+- Physiological signal processing
+- Wearable sensing
+- Photoplethysmography
+- Cardiovascular monitoring
+- Biomedical AI
+- Reproducible research
 
-## Experience
+## Links
 
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
-
-:::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>
+- [GitHub](https://github.com/PietroChierico)
+- [LinkedIn](https://www.linkedin.com/in/pietro-chierico-a94023193/)
+- [ResearchGate](https://www.researchgate.net/profile/Pietro-Chierico-3)
+- [ORCID](https://orcid.org/0009-0006-9076-8532)

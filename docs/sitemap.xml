@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
-    <lastmod>2025-06-06T22:28:53.960Z</lastmod>
+    <loc>https://pietrochierico.github.io/teaching.html</loc>
+    <lastmod>2026-05-28T09:22:25.838Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
-    <lastmod>2025-03-11T20:28:51.830Z</lastmod>
+    <loc>https://pietrochierico.github.io/pub-listing.html</loc>
+    <lastmod>2026-05-28T08:50:53.762Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/projects.html</loc>
-    <lastmod>2025-02-10T13:31:20.796Z</lastmod>
+    <loc>https://pietrochierico.github.io/posts.html</loc>
+    <lastmod>2026-05-28T08:50:53.749Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
-    <lastmod>2025-06-06T22:34:03.868Z</lastmod>
+    <loc>https://pietrochierico.github.io/posts/news-title/index.html</loc>
+    <lastmod>2026-05-28T08:50:53.751Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/index.html</loc>
-    <lastmod>2025-02-08T20:29:49.171Z</lastmod>
+    <loc>https://pietrochierico.github.io/people.html</loc>
+    <lastmod>2026-05-28T08:50:53.747Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
-    <lastmod>2025-02-10T15:14:33.036Z</lastmod>
+    <loc>https://pietrochierico.github.io/cv.html</loc>
+    <lastmod>2026-05-28T09:22:57.265Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/contact.html</loc>
-    <lastmod>2025-02-08T02:43:14.168Z</lastmod>
+    <loc>https://pietrochierico.github.io/contact.html</loc>
+    <lastmod>2026-05-28T09:23:15.079Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/index.html</loc>
-    <lastmod>2025-02-10T14:44:43.941Z</lastmod>
+    <loc>https://pietrochierico.github.io/index.html</loc>
+    <lastmod>2026-05-28T09:25:05.386Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
-    <lastmod>2026-04-09T13:15:19.955Z</lastmod>
+    <loc>https://pietrochierico.github.io/posts/event-title/index.html</loc>
+    <lastmod>2026-05-28T08:50:53.751Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2026-02-03T19:55:18.149Z</lastmod>
+    <loc>https://pietrochierico.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2026-05-28T08:50:53.759Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/pub-listing.html</loc>
-    <lastmod>2026-04-09T12:35:28.091Z</lastmod>
+    <loc>https://pietrochierico.github.io/projects.html</loc>
+    <lastmod>2026-05-28T09:41:57.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pietrochierico.github.io/publications.html</loc>
+    <lastmod>2026-05-28T09:22:11.705Z</lastmod>
   </url>
 </urlset>

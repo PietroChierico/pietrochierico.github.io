@@ -1,67 +1,21 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
 title-block-banner: false
+toc: true
 ---
 
+## Teaching
 
-## Class 1
+This page lists my teaching, mentoring, and academic support activities.
 
-::: {.grid}
+## Areas
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+- Biomedical engineering
+- Physiological signal processing
+- Digital health
+- Wearable sensing
+- Python and data analysis
 
-:::
+## Experience
 
-::: {.g-col-12 .g-col-md-10}
-
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 1 introduction.
-
-:::
-
-:::
-
-
-## Class 2
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 2 introduction.
-
-:::
-
-:::
-
-
-## Class 3
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
-
-Class 3 introduction. 
-
-:::
-
-:::
-
-
+Add your teaching assistant roles, lectures, tutorials, or mentoring activities here.
