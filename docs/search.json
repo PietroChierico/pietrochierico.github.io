@@ -7,13 +7,6 @@
     "text": "For academic or research-related inquiries, please contact me at:\npietrochr@gmail.com"
   },
   {
-    "objectID": "contact.html#contact",
-    "href": "contact.html#contact",
-    "title": "Contact",
-    "section": "",
-    "text": "For academic or research-related inquiries, please contact me at:\npietrochr@gmail.com"
-  },
-  {
     "objectID": "contact.html#profiles",
     "href": "contact.html#profiles",
     "title": "Contact",
@@ -28,25 +21,18 @@
     "text": "I develop signal-processing and machine-learning methods for wearable cardiovascular monitoring, with a particular focus on photoplethysmography (PPG).\nMy work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications."
   },
   {
-    "objectID": "projects.html#research-overview",
-    "href": "projects.html#research-overview",
+    "objectID": "projects.html#main-research-lines",
+    "href": "projects.html#main-research-lines",
     "title": "Research",
-    "section": "",
-    "text": "My research focuses on wearable biomedical sensing, digital health, and biomedical signal processing.\nI work mainly with photoplethysmography signals, cardiovascular monitoring, signal quality assessment, and AI-based methods for biomedical data analysis."
+    "section": "Main research lines",
+    "text": "Main research lines\n\n\n\nPPG signal quality assessment\n\n\nI work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.\n\n\n\n\nNoise-resilient beat detection\n\n\nI develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.\n\n\n\n\nWearable cardiovascular monitoring\n\n\nI am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.\n\n\n\n\nEvaluation of biomedical signal pipelines\n\n\nI study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems."
   },
   {
-    "objectID": "projects.html#current-research-directions",
-    "href": "projects.html#current-research-directions",
+    "objectID": "projects.html#selected-publications",
+    "href": "projects.html#selected-publications",
     "title": "Research",
-    "section": "Current research directions",
-    "text": "Current research directions\n\nPPG signal quality assessment\nI work on methods to detect and classify low-quality PPG segments in wearable monitoring. This is important because noisy signals can reduce the reliability of heart rate, pulse rate variability, blood pressure, and other physiological estimates.\n\n\nRobust peak detection in PPG\nI am interested in noise-resilient peak detection methods for PPG signals, especially in wearable and real-world monitoring conditions.\n\n\nReproducible biomedical AI\nI am interested in biomedical AI methods that are transparent, reproducible, and useful for translational healthcare engineering."
-  },
-  {
-    "objectID": "projects.html#publications",
-    "href": "projects.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nConference papers\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nMachine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.\n13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania.\nAward: First Prize.\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.350\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.344"
+    "section": "Selected publications",
+    "text": "Selected publications\n\nConference papers\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.350\n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.344"
   },
   {
     "objectID": "index.html",
@@ -56,11 +42,11 @@
     "text": "Email ORCID ResearchGate LinkedIn GitHub\n\n\n\n\nPhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing."
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "index.html#pietro-chierico",
+    "href": "index.html#pietro-chierico",
     "title": "Pietro Chierico",
     "section": "",
-    "text": "I am a PhD student in Biomedical Engineering at Universitat Politècnica de València, affiliated with BioMIT.org, and a visiting researcher at Khalifa University.\nMy research focuses on digital health, physiological signal processing, wearable sensing, photoplethysmography, cardiovascular monitoring, and AI-driven biomedical technologies.\nI am interested in developing reliable and reproducible methods for biomedical signal analysis, with applications in wearable and translational healthcare engineering.\n\n\n\nDigital health\nPhysiological signal processing\nWearable sensing\nPhotoplethysmography\nCardiovascular monitoring\nBiomedical AI\nReproducible research\n\n\n\n\n\nResearchGate\nORCID\nLinkedIn\nGitHub"
+    "text": "PhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing."
   },
   {
     "objectID": "index.html#awards",
@@ -75,54 +61,5 @@
     "title": "CV",
     "section": "",
     "text": "My CV is available upon request.\nFor inquiries, please contact:\npietrochr@gmail.com"
-  },
-  {
-    "objectID": "cv.html#curriculum-vitae",
-    "href": "cv.html#curriculum-vitae",
-    "title": "CV",
-    "section": "",
-    "text": "My CV is available upon request.\nFor inquiries, please contact:\npietrochr@gmail.com"
-  },
-  {
-    "objectID": "index.html#research-focus",
-    "href": "index.html#research-focus",
-    "title": "Pietro Chierico",
-    "section": "Research focus",
-    "text": "Research focus\n\n\n\nPhysiological signal processing\nRobust analysis of cardiovascular and wearable signals, with attention to signal quality, beat detection, and reproducible pipelines.\n\n\n\nWearable sensing & PPG\nPhotoplethysmography-based monitoring for digital health applications, including signal quality assessment and translational use cases.\n\n\n\nBiomedical AI\nMachine learning methods for reliable, interpretable, and clinically relevant biomedical technologies."
-  },
-  {
-    "objectID": "index.html#international-research-path",
-    "href": "index.html#international-research-path",
-    "title": "Pietro Chierico",
-    "section": "International research path",
-    "text": "International research path\n\n\n\nUniversitat Politècnica de València · Spain\nPhD student in Biomedical Engineering, affiliated with BioMIT.org.\n\n\n\nPolitecnico di Milano · Italy\nBSc in Biomedical Engineering and MSc in Technologies for Electronics.\n\n\n\nSTMicroelectronics · Italy\nBiomedical application engineering experience in an industrial R&D environment.\n\n\n\nKhalifa University · United Arab Emirates\nVisiting researcher in biomedical engineering and digital health.\n\n\n\nUniversity of Illinois Chicago · United States\nMSc double degree experience and research activity in neural engineering.\n\n\n\nNECSTLab · Politecnico di Milano\nResearch assistant experience in advanced computing and biomedical technologies."
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Pietro Chierico",
-    "section": "Research interests",
-    "text": "Research interests\nDigital health\nPhysiological signal processing\nWearable sensing\nPhotoplethysmography\nCardiovascular monitoring\nBiomedical AI\nSignal quality assessment\nReproducible biomedical research\nTranslational healthcare engineering"
-  },
-  {
-    "objectID": "index.html#pietro-chierico",
-    "href": "index.html#pietro-chierico",
-    "title": "Pietro Chierico",
-    "section": "",
-    "text": "PhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing."
-  },
-  {
-    "objectID": "projects.html#main-research-lines",
-    "href": "projects.html#main-research-lines",
-    "title": "Research",
-    "section": "Main research lines",
-    "text": "Main research lines\n\n\n\nPPG signal quality assessment\n\n\nI work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.\n\n\n\n\nNoise-resilient beat detection\n\n\nI develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.\n\n\n\n\nWearable cardiovascular monitoring\n\n\nI am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.\n\n\n\n\nEvaluation of biomedical signal pipelines\n\n\nI study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems."
-  },
-  {
-    "objectID": "projects.html#selected-publications",
-    "href": "projects.html#selected-publications",
-    "title": "Research",
-    "section": "Selected publications",
-    "text": "Selected publications\n\nConference papers\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.350\n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.344"
   }
 ]

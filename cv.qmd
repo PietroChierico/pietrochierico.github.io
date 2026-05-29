@@ -4,8 +4,6 @@ title-block-banner: false
 toc: false
 ---
 
-## Curriculum Vitae
-
 My CV is available upon request.
 
 For inquiries, please contact:

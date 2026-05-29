@@ -4,8 +4,6 @@ title-block-banner: false
 toc: false
 ---
 
-## Contact
-
 For academic or research-related inquiries, please contact me at:
 
 [pietrochr@gmail.com](mailto:pietrochr@gmail.com)
