@@ -28,12 +28,20 @@ I work at the intersection of **digital health, physiological signal processing,
 
 My research focuses especially on **photoplethysmography (PPG)**, signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.
 
-Previously, I gained international research and engineering experience at the **University of Illinois Chicago**, **Politecnico di Milano**, **NECSTLab**, and **STMicroelectronics**, working across biomedical engineering, embedded technologies, and applied physiological sensing.
+Previously, I gained international research and engineering experience at the **University of Illinois Chicago**, **Politecnico di Milano**, **NECSTLab**, and **STMicroelectronics**, working across biomedical engineering, embedded technologies, and applied physiological sensing. I also completed a visiting PhD period at **Khalifa University** (Abu Dhabi), working with **Prof. Mohamed Elgendi** on wearable PPG sensing and biomedical signal education.
 
 :::
 
 :::
 
+## Affiliations
+
+::: {.affiliation-logos}
+![Universitat Politècnica de València](files/logos/upv.png)
+![Khalifa University](files/logos/ku.png)
+![Politecnico di Milano](files/logos/polimi.png)
+![University of Illinois Chicago](files/logos/uic.png)
+:::
 
 ## Awards
 
@@ -46,3 +54,16 @@ Awarded for the paper:
 *Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance.*
 
 ![](files/ehb-2025-first-prize.jpg){width=70%}
+
+## Latest
+
+**PulseCraft PPG — an open photoplethysmography teaching kit.** Designed and built during my
+visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five
+hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an
+apnea/SpO2 proxy, stress detection), Arduino/ESP32 firmware, a 3D-printable sensor case, and a
+full instructor kit, released open-source so any lab or course can reuse it.
+
+::: {.link-buttons}
+[View on GitHub](https://github.com/PietroChierico/PulseCraft-PPG)
+[Documentation](https://pietrochierico.github.io/PulseCraft-PPG/)
+:::

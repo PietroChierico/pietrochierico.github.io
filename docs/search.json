@@ -1,17 +1,45 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
     "section": "",
-    "text": "For academic or research-related inquiries, please contact me at:\npietrochr@gmail.com"
+    "text": "My CV is available upon request.\nFor inquiries, please contact:\npietrochr@gmail.com"
   },
   {
-    "objectID": "contact.html#profiles",
-    "href": "contact.html#profiles",
-    "title": "Contact",
-    "section": "Profiles",
-    "text": "Profiles\n\nResearchGate\nORCID\nLinkedIn\nGitHub"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pietro Chierico",
+    "section": "",
+    "text": "Email ORCID ResearchGate LinkedIn GitHub\n\n\n\n\nPhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing. I also completed a visiting PhD period at Khalifa University (Abu Dhabi), working with Prof. Mohamed Elgendi on wearable PPG sensing and biomedical signal education."
+  },
+  {
+    "objectID": "index.html#pietro-chierico",
+    "href": "index.html#pietro-chierico",
+    "title": "Pietro Chierico",
+    "section": "",
+    "text": "PhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing. I also completed a visiting PhD period at Khalifa University (Abu Dhabi), working with Prof. Mohamed Elgendi on wearable PPG sensing and biomedical signal education."
+  },
+  {
+    "objectID": "index.html#affiliations",
+    "href": "index.html#affiliations",
+    "title": "Pietro Chierico",
+    "section": "Affiliations",
+    "text": "Affiliations"
+  },
+  {
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Pietro Chierico",
+    "section": "Awards",
+    "text": "Awards\n\nFirst Prize — EHB 2025 International Conference\n13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania\nAwarded for the paper:\nMachine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance."
+  },
+  {
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
+    "title": "Pietro Chierico",
+    "section": "Latest",
+    "text": "Latest\nPulseCraft PPG — an open photoplethysmography teaching kit. Designed and built during my visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an apnea/SpO2 proxy, stress detection), Arduino/ESP32 firmware, a 3D-printable sensor case, and a full instructor kit, released open-source so any lab or course can reuse it.\n\nView on GitHub Documentation"
   },
   {
     "objectID": "projects.html",
@@ -35,31 +63,24 @@
     "text": "Selected publications\n\nConference papers\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.350\n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.344"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pietro Chierico",
-    "section": "",
-    "text": "Email ORCID ResearchGate LinkedIn GitHub\n\n\n\n\nPhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing."
+    "objectID": "projects.html#open-source-teaching",
+    "href": "projects.html#open-source-teaching",
+    "title": "Research",
+    "section": "Open-source & teaching",
+    "text": "Open-source & teaching\n\n\nPulseCraft PPG — an open photoplethysmography teaching kit\n\n\nDesigned and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO2 proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, a no-hardware signal simulator, and a full instructor kit (syllabus, lesson plans, worksheets, grading rubric). Released open-source (MIT / CC BY 4.0) so any lab, course, or summer school can reuse it.\n\n\nView on GitHub Documentation"
   },
   {
-    "objectID": "index.html#pietro-chierico",
-    "href": "index.html#pietro-chierico",
-    "title": "Pietro Chierico",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "PhD Student in Biomedical Engineering\nI work at the intersection of digital health, physiological signal processing, wearable sensing, and biomedical AI, with a focus on making cardiovascular monitoring technologies more reliable, reproducible, and clinically meaningful.\nMy research focuses especially on photoplethysmography (PPG), signal quality assessment, beat detection, and AI-based methods for interpreting physiological signals from wearable devices. I am interested in translating robust biomedical engineering methods into real-world digital health applications.\nPreviously, I gained international research and engineering experience at the University of Illinois Chicago, Politecnico di Milano, NECSTLab, and STMicroelectronics, working across biomedical engineering, embedded technologies, and applied physiological sensing."
+    "text": "For academic or research-related inquiries, please contact me at:\npietrochr@gmail.com"
   },
   {
-    "objectID": "index.html#awards",
-    "href": "index.html#awards",
-    "title": "Pietro Chierico",
-    "section": "Awards",
-    "text": "Awards\n\nFirst Prize — EHB 2025 International Conference\n13th International Conference on E-Health and Bioengineering (EHB 2025), Iași, Romania\nAwarded for the paper:\nMachine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "My CV is available upon request.\nFor inquiries, please contact:\npietrochr@gmail.com"
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\nResearchGate\nORCID\nLinkedIn\nGitHub"
   }
 ]

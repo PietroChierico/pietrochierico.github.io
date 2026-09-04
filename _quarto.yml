@@ -6,6 +6,7 @@ project:
     - projects.qmd
     - cv.qmd
     - contact.qmd
+    - 404.qmd
 
 website:
   title: "Pietro Chierico"

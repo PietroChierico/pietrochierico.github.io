@@ -53,7 +53,15 @@
   width: 75%;
 }
 
-.profile-links a {
+.link-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.8rem 0 1.5rem 0;
+}
+
+.profile-links a,
+.link-buttons a {
   display: block;
   padding: 0.55rem 0.75rem;
   border: 1px solid #d9dee7;
@@ -66,7 +74,25 @@
   transition: all 0.2s ease;
 }
 
-.profile-links a:hover {
+.profile-links a:hover,
+.link-buttons a:hover {
   border-color: #7a8ca5;
   transform: translateY(-1px);
+}
+
+.affiliation-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.2rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.affiliation-logos img {
+  height: 48px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  opacity: 0.9;
+  filter: grayscale(15%);
 }
