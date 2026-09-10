@@ -60,8 +60,9 @@ Awarded for the paper:
 **PulseCraft PPG — an open photoplethysmography teaching kit.** Designed and built during my
 visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five
 hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an
-apnea/SpO2 proxy, stress detection), Arduino/ESP32 firmware, a 3D-printable sensor case, and a
-full instructor kit, released open-source so any lab or course can reuse it.
+apnea/SpO2 proxy, stress detection), with Arduino/ESP32 firmware, a 3D-printable sensor case,
+Python feature-extraction and ML pipelines, and a no-hardware signal simulator. Released
+open-source so any lab, course, or individual can build on it.
 
 ::: {.link-buttons}
 [View on GitHub](https://github.com/PietroChierico/PulseCraft-PPG)

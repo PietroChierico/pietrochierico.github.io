@@ -39,7 +39,7 @@
     "href": "index.html#latest",
     "title": "Pietro Chierico",
     "section": "Latest",
-    "text": "Latest\nPulseCraft PPG — an open photoplethysmography teaching kit. Designed and built during my visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an apnea/SpO2 proxy, stress detection), Arduino/ESP32 firmware, a 3D-printable sensor case, and a full instructor kit, released open-source so any lab or course can reuse it.\n\nView on GitHub Documentation"
+    "text": "Latest\nPulseCraft PPG — an open photoplethysmography teaching kit. Designed and built during my visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an apnea/SpO2 proxy, stress detection), with Arduino/ESP32 firmware, a 3D-printable sensor case, Python feature-extraction and ML pipelines, and a no-hardware signal simulator. Released open-source so any lab, course, or individual can build on it.\n\nView on GitHub Documentation"
   },
   {
     "objectID": "projects.html",
@@ -67,7 +67,7 @@
     "href": "projects.html#open-source-teaching",
     "title": "Research",
     "section": "Open-source & teaching",
-    "text": "Open-source & teaching\n\n\nPulseCraft PPG — an open photoplethysmography teaching kit\n\n\nDesigned and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO2 proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, a no-hardware signal simulator, and a full instructor kit (syllabus, lesson plans, worksheets, grading rubric). Released open-source (MIT / CC BY 4.0) so any lab, course, or summer school can reuse it.\n\n\nView on GitHub Documentation"
+    "text": "Open-source & teaching\n\n\nPulseCraft PPG — an open photoplethysmography teaching kit\n\n\nDesigned and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO2 proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a no-hardware signal simulator. Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.\n\n\nView on GitHub Documentation"
   },
   {
     "objectID": "contact.html",
