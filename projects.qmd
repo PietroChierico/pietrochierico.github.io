@@ -1,105 +1,22 @@
 ---
-title: "Research"
+title: "Open Source & Teaching"
 title-block-banner: false
-toc: true
+toc: false
 ---
 
-<style>
-.research-cards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2rem 0;
-}
+## PulseCraft PPG — an open photoplethysmography teaching kit
 
-.research-card {
-  border: 1px solid #d9dee7;
-  border-radius: 14px;
-  padding: 1.1rem 1.2rem;
-  background-color: #ffffff;
-}
+Designed and built end-to-end during my visiting PhD period at **Khalifa University**, for the CMHS
+Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track).
 
-.research-card h3 {
-  margin-top: 0;
-  font-size: 1.05rem;
-}
+Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a
+voluntary-apnea SpO~2~ proxy, and live stress detection — with Arduino/ESP32 acquisition firmware,
+a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a
+no-hardware signal simulator.
 
-.research-card p {
-  margin-bottom: 0;
-  font-size: 0.95rem;
-}
-
-@media (max-width: 768px) {
-  .research-cards {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-I develop signal-processing and machine-learning methods for **wearable cardiovascular monitoring**, with a particular focus on **photoplethysmography (PPG)**.
-
-My work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications.
-
-## Main research lines
-
-<div class="research-cards">
-
-<div class="research-card">
-<h3>PPG signal quality assessment</h3>
-<p>
-I work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.
-</p>
-</div>
-
-<div class="research-card">
-<h3>Noise-resilient beat detection</h3>
-<p>
-I develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.
-</p>
-</div>
-
-<div class="research-card">
-<h3>Wearable cardiovascular monitoring</h3>
-<p>
-I am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.
-</p>
-</div>
-
-<div class="research-card">
-<h3>Evaluation of biomedical signal pipelines</h3>
-<p>
-I study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems.
-</p>
-</div>
-
-</div>
-
-## Recent publications
-
-<!-- Generated automatically from Google Scholar (see scripts/update_publications.py). -->
-
-{{< include /files/includes/_publications_recent.qmd >}}
+Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.
 
 ::: {.link-buttons}
-[All publications](publications.qmd)
-[Google Scholar profile](https://scholar.google.com/citations?user=ZHbnJvcAAAAJ)
+[View on GitHub](https://github.com/PietroChierico/PulseCraft-PPG)
+[Documentation](https://pietrochierico.github.io/PulseCraft-PPG/)
 :::
-
-## Open-source & teaching
-
-<div class="research-card" style="grid-column: 1 / -1;">
-<h3>PulseCraft PPG — an open photoplethysmography teaching kit</h3>
-<p>
-Designed and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS
-Summer Internship Program 2026 (Biomedical Engineering &amp; Biotechnology track). Five hands-on
-PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea
-SpO<sub>2</sub> proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a
-3D-printable sensor case, Python data-collection and machine-learning pipelines, and a
-no-hardware signal simulator. Released open-source (MIT / CC BY 4.0) so any lab, course, or
-individual can build on it.
-</p>
-<div class="link-buttons" style="margin-top: 0.8rem;">
-<a href="https://github.com/PietroChierico/PulseCraft-PPG" target="_blank">View on GitHub</a>
-<a href="https://pietrochierico.github.io/PulseCraft-PPG/" target="_blank">Documentation</a>
-</div>
-</div>

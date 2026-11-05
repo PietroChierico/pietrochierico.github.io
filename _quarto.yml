@@ -19,10 +19,10 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Research
-        href: projects.qmd
       - text: Publications
         href: publications.qmd
+      - text: Open Source & Teaching
+        href: projects.qmd
       - text: CV
         href: cv.qmd
       - text: Contact
