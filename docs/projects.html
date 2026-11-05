@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,14 +38,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c7ab57aa33037bad7520c6cb9ec7d6ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c23fbde2efebf439822dd10b4ff44994.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,19 +79,18 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pietro Chierico</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -99,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
@@ -132,6 +139,7 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -140,21 +148,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#main-research-lines" id="toc-main-research-lines" class="nav-link active" data-scroll-target="#main-research-lines">Main research lines</a></li>
-  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link" data-scroll-target="#selected-publications">Selected publications</a>
-  <ul class="collapse">
-  <li><a href="#conference-papers" id="toc-conference-papers" class="nav-link" data-scroll-target="#conference-papers">Conference papers</a></li>
-  </ul></li>
+  <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">Recent publications</a></li>
   <li><a href="#open-source-teaching" id="toc-open-source-teaching" class="nav-link" data-scroll-target="#open-source-teaching">Open-source &amp; teaching</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -198,26 +203,6 @@ ul.task-list li input[type="checkbox"] {
 .research-card p {
   margin-bottom: 0;
   font-size: 0.95rem;
-}
-
-.publication {
-  border-left: 3px solid #d9dee7;
-  padding-left: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.publication-title {
-  font-weight: 700;
-}
-
-.award-badge {
-  display: inline-block;
-  margin-top: 0.4rem;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  background-color: #f3f6fa;
-  font-size: 0.85rem;
-  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -265,23 +250,37 @@ I study how preprocessing, beat detection, feature extraction, and model design 
 </div>
 </div>
 </section>
-<section id="selected-publications" class="level2">
-<h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
-<section id="conference-papers" class="level3">
-<h3 class="anchored" data-anchor-id="conference-papers">Conference papers</h3>
+<section id="recent-publications" class="level2">
+<h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
+<!-- Generated automatically from Google Scholar (see scripts/update_publications.py). -->
+<!-- AUTO-GENERATED by scripts/update_publications.py — do not edit by hand. Edit publications_overrides.json instead. -->
 <div class="publication">
-<p>Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., &amp; Rieta, J. J. (2025).</p>
-<p><span class="publication-title">Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.</span></p>
-<p><em>Computing in Cardiology 2025.</em></p>
-<p>DOI: <a href="https://doi.org/10.22489/CinC.2025.350">10.22489/CinC.2025.350</a></p>
+<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
+<div class="publication-title">Improving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection</div>
+<div class="pub-venue"><em>Sensors</em>, 26(21), 6912</div>
+<div class="pub-links"><a href="https://doi.org/10.3390/s26216912" target="_blank" rel="noopener">DOI: 10.3390/s26216912</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:YsMSGLbcyi4C" target="_blank" rel="noopener">Google Scholar</a> </div>
 </div>
 <div class="publication">
-<p>Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2025).</p>
-<p><span class="publication-title">Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.</span></p>
-<p><em>Computing in Cardiology 2025.</em></p>
-<p>DOI: <a href="https://doi.org/10.22489/CinC.2025.344">10.22489/CinC.2025.344</a></p>
+<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
+<div class="publication-title">A Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG</div>
+<div class="pub-venue"><em>Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer</em></div>
+<div class="pub-links"><a href="https://doi.org/10.1007/978-3-032-24045-3_21" target="_blank" rel="noopener">DOI: 10.1007/978-3-032-24045-3_21</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:zYLM7Y9cAGgC" target="_blank" rel="noopener">Google Scholar</a> </div>
 </div>
-</section>
+<div class="publication">
+<div class="pub-authors"><strong>Chierico, P.</strong>, Bertomeu-González, V., Alcaraz, R., Elgendi, M., &amp; Rieta, J. J. (2026).</div>
+<div class="publication-title">Generalizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features</div>
+<div class="pub-venue"><em>Computing in Cardiology 2026</em></div>
+<div class="pub-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noopener">Google Scholar</a> </div>
+</div>
+<div class="publication">
+<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
+<div class="publication-title">Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance</div>
+<div class="pub-venue"><em>Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer</em></div>
+<div class="pub-note"><span class="award-badge">First Prize — EHB 2025</span></div><div class="pub-links"><a href="https://doi.org/10.1007/978-3-032-24045-3_19" target="_blank" rel="noopener">DOI: 10.1007/978-3-032-24045-3_19</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noopener">Google Scholar</a> </div>
+</div>
+<div class="link-buttons">
+<p><a href="./publications.html">All publications</a> <a href="https://scholar.google.com/citations?user=ZHbnJvcAAAAJ">Google Scholar profile</a></p>
+</div>
 </section>
 <section id="open-source-teaching" class="level2">
 <h2 class="anchored" data-anchor-id="open-source-teaching">Open-source &amp; teaching</h2>
@@ -375,11 +374,30 @@ Designed and built end-to-end during my visiting PhD period at Khalifa Universit
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/pietrochierico\.github\.io");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -393,8 +411,70 @@ Designed and built end-to-end during my visiting PhD period at Khalifa Universit
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -408,6 +488,7 @@ Designed and built end-to-end during my visiting PhD period at Khalifa Universit
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -570,44 +651,54 @@ Designed and built end-to-end during my visiting PhD period at Khalifa Universit
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -705,6 +796,9 @@ Designed and built end-to-end during my visiting PhD period at Khalifa Universit
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

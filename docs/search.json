@@ -7,6 +7,34 @@
     "text": "My CV is available upon request.\nFor inquiries, please contact:\npietrochr@gmail.com"
   },
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Research",
+    "section": "",
+    "text": "I develop signal-processing and machine-learning methods for wearable cardiovascular monitoring, with a particular focus on photoplethysmography (PPG).\nMy work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications."
+  },
+  {
+    "objectID": "projects.html#main-research-lines",
+    "href": "projects.html#main-research-lines",
+    "title": "Research",
+    "section": "Main research lines",
+    "text": "Main research lines\n\n\n\nPPG signal quality assessment\n\n\nI work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.\n\n\n\n\nNoise-resilient beat detection\n\n\nI develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.\n\n\n\n\nWearable cardiovascular monitoring\n\n\nI am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.\n\n\n\n\nEvaluation of biomedical signal pipelines\n\n\nI study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems."
+  },
+  {
+    "objectID": "projects.html#recent-publications",
+    "href": "projects.html#recent-publications",
+    "title": "Research",
+    "section": "Recent publications",
+    "text": "Recent publications\n\n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2026).\nImproving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection\nSensors, 26(21), 6912\nDOI: 10.3390/s26216912 · Google Scholar \n\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2026).\nA Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG\nAdvances in Digital Health and Medical Bioengineering II (EHB 2025), Springer\nDOI: 10.1007/978-3-032-24045-3_21 · Google Scholar \n\n\nChierico, P., Bertomeu-González, V., Alcaraz, R., Elgendi, M., & Rieta, J. J. (2026).\nGeneralizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features\nComputing in Cardiology 2026\nGoogle Scholar \n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2026).\nMachine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance\nAdvances in Digital Health and Medical Bioengineering II (EHB 2025), Springer\nFirst Prize — EHB 2025DOI: 10.1007/978-3-032-24045-3_19 · Google Scholar \n\n\nAll publications Google Scholar profile"
+  },
+  {
+    "objectID": "projects.html#open-source-teaching",
+    "href": "projects.html#open-source-teaching",
+    "title": "Research",
+    "section": "Open-source & teaching",
+    "text": "Open-source & teaching\n\n\nPulseCraft PPG — an open photoplethysmography teaching kit\n\n\nDesigned and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO2 proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a no-hardware signal simulator. Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.\n\n\nView on GitHub Documentation"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pietro Chierico",
@@ -42,32 +70,32 @@
     "text": "Latest\nPulseCraft PPG — an open photoplethysmography teaching kit. Designed and built during my visiting PhD period at Khalifa University for the CMHS Summer Internship Program 2026: five hands-on PPG projects (activity recognition, caffeine response, relaxation biofeedback, an apnea/SpO2 proxy, stress detection), with Arduino/ESP32 firmware, a 3D-printable sensor case, Python feature-extraction and ML pipelines, and a no-hardware signal simulator. Released open-source so any lab, course, or individual can build on it.\n\nView on GitHub Documentation"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Research",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "I develop signal-processing and machine-learning methods for wearable cardiovascular monitoring, with a particular focus on photoplethysmography (PPG).\nMy work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications."
+    "text": "List synchronised automatically with Google Scholar. Last update: 2026-11-05."
   },
   {
-    "objectID": "projects.html#main-research-lines",
-    "href": "projects.html#main-research-lines",
-    "title": "Research",
-    "section": "Main research lines",
-    "text": "Main research lines\n\n\n\nPPG signal quality assessment\n\n\nI work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.\n\n\n\n\nNoise-resilient beat detection\n\n\nI develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.\n\n\n\n\nWearable cardiovascular monitoring\n\n\nI am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.\n\n\n\n\nEvaluation of biomedical signal pipelines\n\n\nI study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems."
+    "objectID": "publications.html#journal-papers",
+    "href": "publications.html#journal-papers",
+    "title": "Publications",
+    "section": "Journal papers",
+    "text": "Journal papers\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2026).\nImproving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection\nSensors, 26(21), 6912\nDOI: 10.3390/s26216912 · Google Scholar"
   },
   {
-    "objectID": "projects.html#selected-publications",
-    "href": "projects.html#selected-publications",
-    "title": "Research",
-    "section": "Selected publications",
-    "text": "Selected publications\n\nConference papers\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.350\n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.\nComputing in Cardiology 2025.\nDOI: 10.22489/CinC.2025.344"
+    "objectID": "publications.html#conference-papers",
+    "href": "publications.html#conference-papers",
+    "title": "Publications",
+    "section": "Conference papers",
+    "text": "Conference papers\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2026).\nA Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG\nAdvances in Digital Health and Medical Bioengineering II (EHB 2025), Springer\nDOI: 10.1007/978-3-032-24045-3_21 · Google Scholar \n\n\nChierico, P., Bertomeu-González, V., Alcaraz, R., Elgendi, M., & Rieta, J. J. (2026).\nGeneralizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features\nComputing in Cardiology 2026\nGoogle Scholar \n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2026).\nMachine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance\nAdvances in Digital Health and Medical Bioengineering II (EHB 2025), Springer\nFirst Prize — EHB 2025DOI: 10.1007/978-3-032-24045-3_19 · Google Scholar \n\n\nChierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).\nFeature-Optimized Signal Quality Assessment in Wearable PPG Monitoring\nComputing in Cardiology 2025\nDOI: 10.22489/CinC.2025.344 · Google Scholar \n\n\nChierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).\nPeakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals\nComputing in Cardiology 2025\nDOI: 10.22489/CinC.2025.350 · Google Scholar Cited by 5"
   },
   {
-    "objectID": "projects.html#open-source-teaching",
-    "href": "projects.html#open-source-teaching",
-    "title": "Research",
-    "section": "Open-source & teaching",
-    "text": "Open-source & teaching\n\n\nPulseCraft PPG — an open photoplethysmography teaching kit\n\n\nDesigned and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering & Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO2 proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a no-hardware signal simulator. Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.\n\n\nView on GitHub Documentation"
+    "objectID": "publications.html#theses",
+    "href": "publications.html#theses",
+    "title": "Publications",
+    "section": "Theses",
+    "text": "Theses\n\nChierico, P. (2024).\nSystem and Method for Precise Positioning a Novel Corneal Electrode in Mice\nUniversity of Illinois at Chicago\nFull text · Google Scholar \n\n\nChierico, P. (2022).\nDesign and analysis of a novel corneal electrode for mice\nPolitecnico di Milano\nFull text · Google Scholar"
   },
   {
     "objectID": "contact.html",
