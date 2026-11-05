@@ -1,0 +1,64 @@
+# Keeps the publication list in sync with Google Scholar and rebuilds the site.
+#
+# Runs:
+#   - every Monday at 05:00 UTC
+#   - on every push to main (so you no longer need to run `quarto render` yourself)
+#   - manually: GitHub -> Actions -> "Update publications" -> "Run workflow"
+#
+# It commits the regenerated publications.json, include files and docs/ back to main,
+# which GitHub Pages then publishes.
+
+name: Update publications
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/**"
+      - "README*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-publications
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch publications from Google Scholar
+        # The script never fails the job if Scholar is unreachable:
+        # it keeps the previous list and tries again next time.
+        run: python scripts/update_publications.py
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render website
+        run: quarto render
+
+      - name: Commit and push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A publications.json files/includes docs
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update publications from Google Scholar [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
