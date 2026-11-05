@@ -26,8 +26,25 @@ git commit -m "..."
 git push
 ```
 
-GitHub Pages serves whatever is committed in `docs/`, so `quarto render` must be run (and its
-output committed) before pushing a content change.
+GitHub Pages serves whatever is committed in `docs/`. The GitHub Action
+`.github/workflows/update-publications.yml` runs `quarto render` on every push to `main`
+and commits the result, so rendering locally is optional (run `git pull` before editing,
+since the Action pushes commits too).
+
+## Publications (automatic)
+
+The Publications page and the "Recent publications" block on the Research page are generated
+from [Google Scholar](https://scholar.google.com/citations?user=ZHbnJvcAAAAJ) by
+`scripts/update_publications.py`, which the Action runs every Monday (or on demand from
+GitHub → Actions → *Update publications* → *Run workflow*).
+
+- `publications.json` — data fetched from Scholar + Crossref (DOI); do not edit.
+- `publications_overrides.json` — manual corrections: change type/venue/authors/DOI,
+  add an award note, hide a paper, or add one that is not on Scholar.
+- `files/includes/_publications*.qmd` — generated include files; do not edit.
+
+Run it locally with `python scripts/update_publications.py` (or `--offline` to only rebuild
+the include files after changing the overrides).
 
 ## Credits
 

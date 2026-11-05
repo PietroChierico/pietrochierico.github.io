@@ -29,26 +29,6 @@ toc: true
   font-size: 0.95rem;
 }
 
-.publication {
-  border-left: 3px solid #d9dee7;
-  padding-left: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.publication-title {
-  font-weight: 700;
-}
-
-.award-badge {
-  display: inline-block;
-  margin-top: 0.4rem;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  background-color: #f3f6fa;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
 @media (max-width: 768px) {
   .research-cards {
     grid-template-columns: 1fr;
@@ -94,33 +74,16 @@ I study how preprocessing, beat detection, feature extraction, and model design 
 
 </div>
 
-## Selected publications
+## Recent publications
 
-### Conference papers
+<!-- Generated automatically from Google Scholar (see scripts/update_publications.py). -->
 
-<div class="publication">
+{{< include /files/includes/_publications_recent.qmd >}}
 
-Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).  
-
-<span class="publication-title">Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.</span>  
-
-*Computing in Cardiology 2025.*  
-
-DOI: [10.22489/CinC.2025.350](https://doi.org/10.22489/CinC.2025.350)
-
-</div>
-
-<div class="publication">
-
-Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
-
-<span class="publication-title">Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.</span>  
-
-*Computing in Cardiology 2025.*  
-
-DOI: [10.22489/CinC.2025.344](https://doi.org/10.22489/CinC.2025.344)
-
-</div>
+::: {.link-buttons}
+[All publications](publications.qmd)
+[Google Scholar profile](https://scholar.google.com/citations?user=ZHbnJvcAAAAJ)
+:::
 
 ## Open-source & teaching
 

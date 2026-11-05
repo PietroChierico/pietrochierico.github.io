@@ -1,0 +1,589 @@
+{
+  "updated": "2026-11-05",
+  "source": "https://scholar.google.com/citations?user=ZHbnJvcAAAAJ",
+  "scholar_raw": [
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:YsMSGLbcyi4C",
+      "title": "Improving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:YsMSGLbcyi4C",
+      "venue": "Sensors",
+      "type": "journal",
+      "url": "https://www.mdpi.com/1424-8220/26/21/6912",
+      "volume": "26",
+      "issue": "21",
+      "pages": "6912",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Fácila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.3390/s26216912"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:W7OEmFMy1HYC",
+      "title": "Generalizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:W7OEmFMy1HYC",
+      "venue": "Computing in Cardiology 2026",
+      "type": "conference",
+      "url": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Bertomeu-González",
+          "given": "Vicente"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Elgendi",
+          "given": "Mohamed"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:Tyk-4Ss8FVUC",
+      "title": "Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:Tyk-4Ss8FVUC",
+      "venue": "Advances in Digital Health and Medical Bioengineering II: Volume 2: Health Technology Assessment, Biomedical Signal Processing, Medicine and Informatics",
+      "type": "conference",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-24045-3_19",
+      "volume": "",
+      "issue": "",
+      "pages": "168-173",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Fácila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.1007/978-3-032-24045-3_19"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:zYLM7Y9cAGgC",
+      "title": "A Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:zYLM7Y9cAGgC",
+      "venue": "Advances in Digital Health and Medical Bioengineering II: Volume 2: Health Technology Assessment, Biomedical Signal Processing, Medicine and Informatics",
+      "type": "conference",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-24045-3_21",
+      "volume": "",
+      "issue": "",
+      "pages": "187-193",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Bertomeu-González",
+          "given": "Vicente"
+        },
+        {
+          "family": "Martínez-Rodrigo",
+          "given": "Arturo"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.1007/978-3-032-24045-3_21"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:qjMakFHDy7sC",
+      "title": "Peakwise Correlation Pulse Detector: A novel method for noise-resilient peak detection in PPG signals",
+      "year": 2025,
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:qjMakFHDy7sC",
+      "venue": "2025 Computing in Cardiology Conference",
+      "type": "conference",
+      "url": "https://www.researchgate.net/profile/Pietro-Chierico-3/publication/398673389_Peakwise_Correlation_Pulse_Detector_A_Novel_Method_for_Noise-Resilient_Peak_Detection_in_PPG_signals/links/6a169dfc07c6cc2cdea6fd2d/Peakwise-Correlation-Pulse-Detector-A-Novel-Method-for-Noise-Resilient-Peak-Detection-in-PPG-signals.pdf",
+      "volume": "52",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suarez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Bertomeu Gonzalez",
+          "given": "Vicente"
+        },
+        {
+          "family": "Martinez-Rodrigo",
+          "given": "Arturo"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raul"
+        },
+        {
+          "family": "J Rieta",
+          "given": "Jose"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.22489/cinc.2025.350"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:2osOgNQ5qMEC",
+      "title": "Feature-optimized signal quality assessment in wearable PPG monitoring",
+      "year": 2025,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:2osOgNQ5qMEC",
+      "venue": "2025 Computing in Cardiology Conference",
+      "type": "conference",
+      "url": "https://www.researchgate.net/profile/Pietro-Chierico-3/publication/398674692_Feature-Optimized_Signal_Quality_Assessment_in_Wearable_PPG_Monitoring/links/6a169e3dfba9bc366d98cf51/Feature-Optimized-Signal-Quality-Assessment-in-Wearable-PPG-Monitoring.pdf",
+      "volume": "52",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suarez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Facila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raul"
+        },
+        {
+          "family": "J Rieta",
+          "given": "Jose"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.22489/cinc.2025.344"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:IjCSPb-OGe4C",
+      "title": "System and Method for Precise Positioning a Novel Corneal Electrode in Mice",
+      "year": 2024,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:IjCSPb-OGe4C",
+      "venue": "University of Illinois at Chicago",
+      "type": "thesis",
+      "url": "https://search.proquest.com/openview/ae83527d0ef19019842e8262fa4cc49f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:UeHWp8X0CEIC",
+      "title": "Design and analysis of a novel corneal electrode for mice",
+      "year": 2022,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:UeHWp8X0CEIC",
+      "venue": "Politecnico di Milano",
+      "type": "thesis",
+      "url": "https://www.politesi.polimi.it/handle/10589/214313",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    }
+  ],
+  "publications": [
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:YsMSGLbcyi4C",
+      "title": "Improving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:YsMSGLbcyi4C",
+      "venue": "Sensors",
+      "type": "journal",
+      "url": "https://www.mdpi.com/1424-8220/26/21/6912",
+      "volume": "26",
+      "issue": "21",
+      "pages": "6912",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Fácila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.3390/s26216912"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:W7OEmFMy1HYC",
+      "title": "Generalizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:W7OEmFMy1HYC",
+      "venue": "Computing in Cardiology 2026",
+      "type": "conference",
+      "url": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Bertomeu-González",
+          "given": "Vicente"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Elgendi",
+          "given": "Mohamed"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:Tyk-4Ss8FVUC",
+      "title": "Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:Tyk-4Ss8FVUC",
+      "venue": "Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer",
+      "type": "conference",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-24045-3_19",
+      "volume": "",
+      "issue": "",
+      "pages": "168-173",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Fácila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.1007/978-3-032-24045-3_19",
+      "note": "<span class=\"award-badge\">First Prize — EHB 2025</span>"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:zYLM7Y9cAGgC",
+      "title": "A Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG",
+      "year": 2026,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:zYLM7Y9cAGgC",
+      "venue": "Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer",
+      "type": "conference",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-24045-3_21",
+      "volume": "",
+      "issue": "",
+      "pages": "187-193",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suárez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Bertomeu-González",
+          "given": "Vicente"
+        },
+        {
+          "family": "Martínez-Rodrigo",
+          "given": "Arturo"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raúl"
+        },
+        {
+          "family": "Rieta",
+          "given": "José J."
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.1007/978-3-032-24045-3_21"
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:qjMakFHDy7sC",
+      "title": "Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals",
+      "year": 2025,
+      "citations": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:qjMakFHDy7sC",
+      "venue": "Computing in Cardiology 2025",
+      "type": "conference",
+      "url": "https://www.researchgate.net/profile/Pietro-Chierico-3/publication/398673389_Peakwise_Correlation_Pulse_Detector_A_Novel_Method_for_Noise-Resilient_Peak_Detection_in_PPG_signals/links/6a169dfc07c6cc2cdea6fd2d/Peakwise-Correlation-Pulse-Detector-A-Novel-Method-for-Noise-Resilient-Peak-Detection-in-PPG-signals.pdf",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suarez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Bertomeu Gonzalez",
+          "given": "Vicente"
+        },
+        {
+          "family": "Martinez-Rodrigo",
+          "given": "Arturo"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raul"
+        },
+        {
+          "family": "J Rieta",
+          "given": "Jose"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.22489/CinC.2025.350",
+      "authors_text": "Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J."
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:2osOgNQ5qMEC",
+      "title": "Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring",
+      "year": 2025,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:2osOgNQ5qMEC",
+      "venue": "Computing in Cardiology 2025",
+      "type": "conference",
+      "url": "https://www.researchgate.net/profile/Pietro-Chierico-3/publication/398674692_Feature-Optimized_Signal_Quality_Assessment_in_Wearable_PPG_Monitoring/links/6a169e3dfba9bc366d98cf51/Feature-Optimized-Signal-Quality-Assessment-in-Wearable-PPG-Monitoring.pdf",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        },
+        {
+          "family": "Suarez",
+          "given": "Daniel"
+        },
+        {
+          "family": "Facila",
+          "given": "Lorenzo"
+        },
+        {
+          "family": "Hornero",
+          "given": "Fernando"
+        },
+        {
+          "family": "Alcaraz",
+          "given": "Raul"
+        },
+        {
+          "family": "J Rieta",
+          "given": "Jose"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true,
+      "doi": "10.22489/CinC.2025.344",
+      "authors_text": "Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J."
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:IjCSPb-OGe4C",
+      "title": "System and Method for Precise Positioning a Novel Corneal Electrode in Mice",
+      "year": 2024,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:IjCSPb-OGe4C",
+      "venue": "University of Illinois at Chicago",
+      "type": "thesis",
+      "url": "https://search.proquest.com/openview/ae83527d0ef19019842e8262fa4cc49f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    },
+    {
+      "scholar_id": "ZHbnJvcAAAAJ:UeHWp8X0CEIC",
+      "title": "Design and analysis of a novel corneal electrode for mice",
+      "year": 2022,
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHbnJvcAAAAJ&citation_for_view=ZHbnJvcAAAAJ:UeHWp8X0CEIC",
+      "venue": "Politecnico di Milano",
+      "type": "thesis",
+      "url": "https://www.politesi.polimi.it/handle/10589/214313",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "authors": [
+        {
+          "family": "Chierico",
+          "given": "Pietro"
+        }
+      ],
+      "authors_truncated": false,
+      "_detail_done": true
+    }
+  ]
+}

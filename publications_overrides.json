@@ -1,0 +1,25 @@
+{
+  "_comment": "Manual corrections applied on top of Google Scholar. Key = Scholar id (see 'scholar_id' in publications.json) or the lowercase title. Any field can be overridden: type (journal | conference | thesis | other), title, venue, doi, url, authors_text, note (HTML allowed), hide (true removes the paper). Keys starting with 'extra:' add papers that are not on Scholar (give at least title, year, type, venue).",
+
+  "ZHbnJvcAAAAJ:qjMakFHDy7sC": {
+    "title": "Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals",
+    "authors_text": "Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J.",
+    "venue": "Computing in Cardiology 2025",
+    "volume": "",
+    "doi": "10.22489/CinC.2025.350"
+  },
+  "ZHbnJvcAAAAJ:2osOgNQ5qMEC": {
+    "title": "Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring",
+    "authors_text": "Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J.",
+    "venue": "Computing in Cardiology 2025",
+    "volume": "",
+    "doi": "10.22489/CinC.2025.344"
+  },
+  "ZHbnJvcAAAAJ:Tyk-4Ss8FVUC": {
+    "venue": "Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer",
+    "note": "<span class=\"award-badge\">First Prize — EHB 2025</span>"
+  },
+  "ZHbnJvcAAAAJ:zYLM7Y9cAGgC": {
+    "venue": "Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer"
+  }
+}

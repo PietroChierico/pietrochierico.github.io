@@ -4,16 +4,8 @@ title-block-banner: false
 toc: true
 ---
 
-## Conference papers
+<!-- The list below is generated from Google Scholar by scripts/update_publications.py
+     (run weekly by .github/workflows/update-publications.yml).
+     To correct or hide an entry, edit publications_overrides.json. -->
 
-Chierico, P., Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., & Rieta, J. J. (2025).  
-**Peakwise Correlation Pulse Detector: A Novel Method for Noise-Resilient Peak Detection in PPG Signals.**  
-*Computing in Cardiology 2025.*  
-DOI: [10.22489/CinC.2025.350](https://doi.org/10.22489/CinC.2025.350)
-
----
-
-Chierico, P., Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., & Rieta, J. J. (2025).  
-**Feature-Optimized Signal Quality Assessment in Wearable PPG Monitoring.**  
-*Computing in Cardiology 2025.*  
-DOI: [10.22489/CinC.2025.344](https://doi.org/10.22489/CinC.2025.344)
+{{< include /files/includes/_publications.qmd >}}
