@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Pietro Chierico</title>
+<title>Open Source &amp; Teaching – Pietro Chierico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c23fbde2efebf439822dd10b4ff44994.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-61294272d804f572025332825f956d6e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,12 +100,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Open Source &amp; Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
@@ -147,23 +147,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#main-research-lines" id="toc-main-research-lines" class="nav-link active" data-scroll-target="#main-research-lines">Main research lines</a></li>
-  <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">Recent publications</a></li>
-  <li><a href="#open-source-teaching" id="toc-open-source-teaching" class="nav-link" data-scroll-target="#open-source-teaching">Open-source &amp; teaching</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Open Source &amp; Teaching</h1>
 </div>
 
 
@@ -180,120 +170,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-.research-cards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2rem 0;
-}
-
-.research-card {
-  border: 1px solid #d9dee7;
-  border-radius: 14px;
-  padding: 1.1rem 1.2rem;
-  background-color: #ffffff;
-}
-
-.research-card h3 {
-  margin-top: 0;
-  font-size: 1.05rem;
-}
-
-.research-card p {
-  margin-bottom: 0;
-  font-size: 0.95rem;
-}
-
-@media (max-width: 768px) {
-  .research-cards {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-<p>I develop signal-processing and machine-learning methods for <strong>wearable cardiovascular monitoring</strong>, with a particular focus on <strong>photoplethysmography (PPG)</strong>.</p>
-<p>My work addresses a practical challenge in digital health: how to make physiological signals collected from wearable devices more reliable, interpretable, and useful in real-world biomedical applications.</p>
-<section id="main-research-lines" class="level2">
-<h2 class="anchored" data-anchor-id="main-research-lines">Main research lines</h2>
-<div class="research-cards">
-<div class="research-card">
-<h3 class="anchored">
-PPG signal quality assessment
-</h3>
-<p>
-I work on methods to identify reliable and unreliable PPG segments in wearable recordings, where motion artifacts, sensor contact, and physiological variability can strongly affect signal interpretation.
-</p>
-</div>
-<div class="research-card">
-<h3 class="anchored">
-Noise-resilient beat detection
-</h3>
-<p>
-I develop and evaluate peak detection methods for PPG signals, with the goal of improving pulse detection under noisy and real-world monitoring conditions.
-</p>
-</div>
-<div class="research-card">
-<h3 class="anchored">
-Wearable cardiovascular monitoring
-</h3>
-<p>
-I am interested in extracting robust cardiovascular information from wearable sensors, including heart rate dynamics, pulse-related features, and clinically meaningful signal descriptors.
-</p>
-</div>
-<div class="research-card">
-<h3 class="anchored">
-Evaluation of biomedical signal pipelines
-</h3>
-<p>
-I study how preprocessing, beat detection, feature extraction, and model design influence the performance of biomedical signal analysis systems.
-</p>
-</div>
-</div>
-</section>
-<section id="recent-publications" class="level2">
-<h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
-<!-- Generated automatically from Google Scholar (see scripts/update_publications.py). -->
-<!-- AUTO-GENERATED by scripts/update_publications.py — do not edit by hand. Edit publications_overrides.json instead. -->
-<div class="publication">
-<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
-<div class="publication-title">Improving Wearable PPG Monitoring with Morphology-Aware and Learning-Driven Heartbeat Detection</div>
-<div class="pub-venue"><em>Sensors</em>, 26(21), 6912</div>
-<div class="pub-links"><a href="https://doi.org/10.3390/s26216912" target="_blank" rel="noopener">DOI: 10.3390/s26216912</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:YsMSGLbcyi4C" target="_blank" rel="noopener">Google Scholar</a> </div>
-</div>
-<div class="publication">
-<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Bertomeu-González, V., Martínez-Rodrigo, A., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
-<div class="publication-title">A Template-Based and Learning-Driven Method for Reliable Heartbeat Detection in Wearable PPG</div>
-<div class="pub-venue"><em>Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer</em></div>
-<div class="pub-links"><a href="https://doi.org/10.1007/978-3-032-24045-3_21" target="_blank" rel="noopener">DOI: 10.1007/978-3-032-24045-3_21</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:zYLM7Y9cAGgC" target="_blank" rel="noopener">Google Scholar</a> </div>
-</div>
-<div class="publication">
-<div class="pub-authors"><strong>Chierico, P.</strong>, Bertomeu-González, V., Alcaraz, R., Elgendi, M., &amp; Rieta, J. J. (2026).</div>
-<div class="publication-title">Generalizable PPG Signal Quality Assessment Using Correlation-Derived Morphological Features</div>
-<div class="pub-venue"><em>Computing in Cardiology 2026</em></div>
-<div class="pub-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noopener">Google Scholar</a> </div>
-</div>
-<div class="publication">
-<div class="pub-authors"><strong>Chierico, P.</strong>, Suárez, D., Fácila, L., Hornero, F., Alcaraz, R., &amp; Rieta, J. J. (2026).</div>
-<div class="publication-title">Machine Learning-Based Assessment of Photoplethysmographic Signal Quality: Impact of Beat Detection on Classification Performance</div>
-<div class="pub-venue"><em>Advances in Digital Health and Medical Bioengineering II (EHB 2025), Springer</em></div>
-<div class="pub-note"><span class="award-badge">First Prize — EHB 2025</span></div><div class="pub-links"><a href="https://doi.org/10.1007/978-3-032-24045-3_19" target="_blank" rel="noopener">DOI: 10.1007/978-3-032-24045-3_19</a> · <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=ZHbnJvcAAAAJ&amp;citation_for_view=ZHbnJvcAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noopener">Google Scholar</a> </div>
-</div>
+<section id="pulsecraft-ppg-an-open-photoplethysmography-teaching-kit" class="level2">
+<h2 class="anchored" data-anchor-id="pulsecraft-ppg-an-open-photoplethysmography-teaching-kit">PulseCraft PPG — an open photoplethysmography teaching kit</h2>
+<p>Designed and built end-to-end during my visiting PhD period at <strong>Khalifa University</strong>, for the CMHS Summer Internship Program 2026 (Biomedical Engineering &amp; Biotechnology track).</p>
+<p>Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO<sub>2</sub> proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a no-hardware signal simulator.</p>
+<p>Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.</p>
 <div class="link-buttons">
-<p><a href="./publications.html">All publications</a> <a href="https://scholar.google.com/citations?user=ZHbnJvcAAAAJ">Google Scholar profile</a></p>
-</div>
-</section>
-<section id="open-source-teaching" class="level2">
-<h2 class="anchored" data-anchor-id="open-source-teaching">Open-source &amp; teaching</h2>
-<div class="research-card" style="grid-column: 1 / -1;">
-<h3 class="anchored">
-PulseCraft PPG — an open photoplethysmography teaching kit
-</h3>
-<p>
-Designed and built end-to-end during my visiting PhD period at Khalifa University, for the CMHS Summer Internship Program 2026 (Biomedical Engineering &amp; Biotechnology track). Five hands-on PPG projects — activity recognition, caffeine response, relaxation biofeedback, a voluntary-apnea SpO<sub>2</sub> proxy, and live stress detection — with Arduino/ESP32 acquisition firmware, a 3D-printable sensor case, Python data-collection and machine-learning pipelines, and a no-hardware signal simulator. Released open-source (MIT / CC BY 4.0) so any lab, course, or individual can build on it.
-</p>
-<div class="link-buttons" style="margin-top: 0.8rem;">
-<p><a href="https://github.com/PietroChierico/PulseCraft-PPG" target="_blank">View on GitHub</a> <a href="https://pietrochierico.github.io/PulseCraft-PPG/" target="_blank">Documentation</a></p>
-</div>
+<p><a href="https://github.com/PietroChierico/PulseCraft-PPG">View on GitHub</a> <a href="https://pietrochierico.github.io/PulseCraft-PPG/">Documentation</a></p>
 </div>
 
 
