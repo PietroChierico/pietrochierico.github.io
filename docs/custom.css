@@ -135,11 +135,30 @@
   font-weight: 600;
 }
 
+/* Quarto wraps the logos in a <p>: make that the flex row so the gap applies */
+.affiliation-logos p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.2rem;
+  margin: 0;
+}
+
 .affiliation-logos img {
-  height: 48px;
+  height: 90px;
   width: auto;
-  max-width: 140px;
+  max-width: 170px;
   object-fit: contain;
   opacity: 0.9;
   filter: grayscale(15%);
+}
+
+@media (max-width: 576px) {
+  .affiliation-logos p {
+    gap: 1.4rem;
+  }
+
+  .affiliation-logos img {
+    height: 64px;
+  }
 }
