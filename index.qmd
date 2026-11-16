@@ -1,3 +1,8 @@
+---
+pagetitle: "Pietro Chierico | PhD Student in Biomedical Engineering"
+description: "Pietro Chierico, PhD student in Biomedical Engineering working on photoplethysmography (PPG), signal quality assessment, wearable sensing and biomedical AI."
+---
+
 ::: {.columns .items-start}
 
 ::: {.column width="32%"}

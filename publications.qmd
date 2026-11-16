@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 title-block-banner: false
+description: "Publications by Pietro Chierico on photoplethysmography (PPG), wearable sensing and biomedical signal processing, updated from Google Scholar."
 toc: true
 ---
 

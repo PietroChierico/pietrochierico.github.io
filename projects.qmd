@@ -1,6 +1,7 @@
 ---
 title: "Open Source & Teaching"
 title-block-banner: false
+description: "PulseCraft PPG, an open-source photoplethysmography teaching kit by Pietro Chierico: Arduino/ESP32 firmware, 3D-printable case and Python ML pipelines."
 toc: false
 ---
 

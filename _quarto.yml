@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - robots.txt
+    - googlee9923007cbd75bad.html
   render:
     - index.qmd
     - projects.qmd
@@ -12,7 +15,10 @@ project:
 website:
   title: "Pietro Chierico"
   site-url: "https://pietrochierico.github.io"
-  description: "Academic website of Pietro Chierico"
+  description: "Pietro Chierico, PhD student in Biomedical Engineering: photoplethysmography (PPG), wearable sensing, physiological signal processing and biomedical AI."
+  image: files/profile.jpg
+  open-graph: true
+  twitter-card: true
 
   navbar:
     background: light

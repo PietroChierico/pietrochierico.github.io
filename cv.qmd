@@ -1,6 +1,7 @@
 ---
 title: "CV"
 title-block-banner: false
+description: "CV of Pietro Chierico, PhD student in Biomedical Engineering. Available upon request."
 toc: false
 ---
 
